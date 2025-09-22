@@ -20,14 +20,14 @@
 </li></ul>
 
 <h3> 
-<ul><li>
+ 
 return a pointer to a memory allocated file structure representing the configuration file 
-</li></ul> 
+ 
        
-</h3>
+</h3><ul><li> 
   
                     char** 	get_cfgfileStructure(void);
-
+</li></ul>
 <h3>  
  return a file structure back to free memory to prevent memory leaks
 </h3>
