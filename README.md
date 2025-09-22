@@ -1,6 +1,6 @@
 # cfgfileHandler.cpp
  
-<div style="margin-left: 20px;">Class object which opens a config file, with multiple records, multiple data objects with mutiple parameters.
+<div style="margin-left: 20px;"><h2></h2>Class object which opens a config file, with multiple records, multiple data objects with mutiple parameters.</div>h2>
 </div>
 
 
