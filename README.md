@@ -7,7 +7,9 @@
 
 <div style="margin-left: 15px;">
 
-       <h3> open a file and create a file structure</h3>
+       <h3> 
+       open a file and create a file structure
+       </h3>
   
             <li>
             int cfgfileOpen(char *fileName);
