@@ -9,11 +9,11 @@
 
 <h3> 
        
-       open a file and create a file structure
+open a file and create a file structure
        
 </h3><ul><li>
             
-            int cfgfileOpen(char *fileName);
+                       int cfgfileOpen(char *fileName);
             
 </li></ul><h3> 
  
@@ -22,7 +22,7 @@ return a pointer to a memory allocated file structure representing the configura
        
 </h3><ul><li> 
   
-                    char** 	get_cfgfileStructure(void);
+                      char** 	get_cfgfileStructure(void);
 </li></ul>
 <h3>  
  return a file structure back to free memory to prevent memory leaks
