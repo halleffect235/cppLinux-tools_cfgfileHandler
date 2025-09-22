@@ -1,6 +1,5 @@
-# heading 1
-cfgfileHandler.cpp
-#
+# cfgfileHandler.cpp
+ 
   Class object which opens a config file, with multiple records, multiple data objects with mutiple parameters.
 
   open a file and create a file structure
