@@ -20,8 +20,11 @@
 </li></ul>
 
 <h3> 
+<ul><li>
+return a pointer to a memory allocated file structure representing the configuration file
        
-       return a pointer to a memory allocated file structure representing the configuration file
+ 
+</li></ul> 
        
 </h3>
   
