@@ -8,15 +8,21 @@
 <div style="margin-left: 15px;">
 
        <h3> 
+       
        open a file and create a file structure
+       
        </h3>
   
             <ul><li>
+            
             int cfgfileOpen(char *fileName);
+            
             </li></ul>
 
        <h3> 
+       
        return a pointer to a memory allocated file structure representing the configuration file
+       
        </h3>
   
             ####          char** 	get_cfgfileStructure(void);
