@@ -41,7 +41,7 @@ return a pointer to a memory allocated file structure representing the configura
                       getInt_cfgfileParaemter(char *paramterKey, int parameter number, int *intParam)
                       getFloat_cfgfileParaemter(char *paramterKey, int parameter number, float *floatParam)
                       getString_cfgfileParaemter(char *paramterKey, int parameter number, char **strParam)
-</ul</li>  
+</ul></li>  
 
 </div>
 
