@@ -6,7 +6,7 @@
 
        <h3> open a file and create a file structure</h3>
   
-            ####          int cfgfileOpen(char *fileName);
+            <ul>int cfgfileOpen(char *fileName);</ul>
 
        <h3> return a pointer to a memory allocated file structure representing the configuration file</h3>
   
