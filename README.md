@@ -30,11 +30,11 @@ return a pointer to a memory allocated file structure representing the configura
 </li></ul>
 <h3>  
  return a file structure back to free memory to prevent memory leaks
-</h3>
+</h3><ul><li>
   
                       int 	free_cfgfileStructure(char ***, int);
   
-<h3>  
+</li></ul><h3>  
  Three data calls to retrive configuration parameters
 </h3><ul<li>
   
