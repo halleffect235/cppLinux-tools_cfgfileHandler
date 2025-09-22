@@ -11,9 +11,9 @@
        open a file and create a file structure
        </h3>
   
-            <li>
+            <ul><li>
             int cfgfileOpen(char *fileName);
-            </li>
+            </li></ul>
 
        <h3> 
        return a pointer to a memory allocated file structure representing the configuration file
