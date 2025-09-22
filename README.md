@@ -21,30 +21,27 @@
 
 <h3> 
 <ul><li>
-return a pointer to a memory allocated file structure representing the configuration file
-       
- 
+return a pointer to a memory allocated file structure representing the configuration file 
 </li></ul> 
        
 </h3>
   
-            ####          char** 	get_cfgfileStructure(void);
+                    char** 	get_cfgfileStructure(void);
 
 <h3>  
  return a file structure back to free memory to prevent memory leaks
 </h3>
   
-            ####          int 	free_cfgfileStructure(char ***, int);
+                      int 	free_cfgfileStructure(char ***, int);
   
 <h3>  
  Three data calls to retrive configuration parameters
-</h3>
+</h3><ul<li>
   
-            ####          getInt_cfgfileParaemter(char *paramterKey, int parameter number, int *intParam)
-            ####          getFloat_cfgfileParaemter(char *paramterKey, int parameter number, float *floatParam)
-            ####          getString_cfgfileParaemter(char *paramterKey, int parameter number, char **strParam)
-
-  
+                      getInt_cfgfileParaemter(char *paramterKey, int parameter number, int *intParam)
+                      getFloat_cfgfileParaemter(char *paramterKey, int parameter number, float *floatParam)
+                      getString_cfgfileParaemter(char *paramterKey, int parameter number, char **strParam)
+</ul</li>  
 
 </div>
 
