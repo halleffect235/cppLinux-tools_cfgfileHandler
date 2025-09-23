@@ -12,9 +12,9 @@
 - `int free_cfgfileStructure(char ***, int);`
 
 ### Three data calls to retrieve configuration parameters
-- `getInt_cfgfileParaemter(char *paramterKey, int parameter number, int *intParam)`
-- `getFloat_cfgfileParaemter(char *paramterKey, int parameter number, float *floatParam)`
-- `getString_cfgfileParaemter(char *paramterKey, int parameter number, char **strParam)`
+- `int getInt_cfgfileParaemter(char *paramterKey, int parameter number, int *intParam)`
+- `int getFloat_cfgfileParaemter(char *paramterKey, int parameter number, float *floatParam)`
+- `int getString_cfgfileParaemter(char *paramterKey, int parameter number, char **strParam)`
  
 ### Sample Records from a typical configFile.cfg
 - `#this is a typical configuration file`
