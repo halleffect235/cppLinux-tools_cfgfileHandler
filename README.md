@@ -32,7 +32,7 @@ return a pointer to a memory allocated file structure representing the configura
   
 </li></ul><h3>  
  Three data calls to retrive configuration parameters
-</h3><ul<li>
+</h3><ul><li>
   
                       getInt_cfgfileParaemter(char *paramterKey, int parameter number, int *intParam)
 </li><li>
