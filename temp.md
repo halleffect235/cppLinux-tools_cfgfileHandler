@@ -15,10 +15,14 @@
 - `int getInt_cfgfileParaemter(char *paramterKey, int parameter number, int *intParam)`
 - `int getFloat_cfgfileParaemter(char *paramterKey, int parameter number, float *floatParam)`
 - `int getString_cfgfileParaemter(char *paramterKey, int parameter number, char **strParam)`
+- `   Error return -1 - no structure open`
+- `                -2 - parameter requested exceeds max allowed 15`
+- `                -3 - parameter key string not found`
+- `                -4 - general fault`
  
 ### Sample Records from a typical configFile.cfg
-- `#this is a typical configuration file`
-- `# first item is the base apraemter name upto 50 cvharacters`
+- `# this is a typical configuration file`
+- `#    first item is the base apraemter name upto 50 cvharacters`
 - `#    comma or semicolon seperated fields of upto 50 characters`
 - `#    records beginning with "#" are ifgnored as comments`
 - `#    parameter names can start anywhere on record, parameters must follow the parameter name
