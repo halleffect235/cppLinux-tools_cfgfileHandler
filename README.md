@@ -35,7 +35,9 @@ return a pointer to a memory allocated file structure representing the configura
 </h3><ul<li>
   
                       getInt_cfgfileParaemter(char *paramterKey, int parameter number, int *intParam)
+</li><li>
                       getFloat_cfgfileParaemter(char *paramterKey, int parameter number, float *floatParam)
+</li><li>
                       getString_cfgfileParaemter(char *paramterKey, int parameter number, char **strParam)
 </ul></li>  
 
