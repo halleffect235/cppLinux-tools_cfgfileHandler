@@ -31,7 +31,10 @@
 - '#`
 - `#    commented lines are ignored in the internal cfgfile structure to conserve memory`
 - `# band-1  , 167`
-- ` band-1 ; 160`
+- `#     example of float parameter`
+- ` band-1 ; 160.50`
+- `#     example of integer parameter`
 - `band-2 ,   80`
 - `band-3 ,   40`
-- `band-4 ,   20`
+- `      example of string parameter`
+- `band-4 ,   20meters`
