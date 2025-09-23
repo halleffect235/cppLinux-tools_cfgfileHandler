@@ -17,13 +17,13 @@
 - `getString_cfgfileParaemter(char *paramterKey, int parameter number, char **strParam)`
  
 ### Sample Records from a typical configFile.cfg
--`#this is a typical configuration file`
--`# first item is the base apraemter name `
--`#    comma of seperated fields of upto 50 characters`
--`#    records beginning with "#" are ifgnored as comments`
--`#`
--`# band-1  , 167`
--` band-1 ; 160`
--`band-2 ,   80`
--`band-3 ,   40`
--`band-4 ,   20`
+- `#this is a typical configuration file`
+- `# first item is the base apraemter name `
+- `#    comma of seperated fields of upto 50 characters`
+- `#    records beginning with "#" are ifgnored as comments`
+- `#`
+- `# band-1  , 167`
+- ` band-1 ; 160`
+- `band-2 ,   80`
+- `band-3 ,   40`
+- `band-4 ,   20`
