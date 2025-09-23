@@ -27,13 +27,13 @@ int main(void) {
 	cfgFile.free_cfgfileStructure(&fStruct, nRecs);
 	
 	char *myPtr = cfgFile.getString_cfgfileParameter((char *) "band-1", 1) ;
-	printf("Band-1 paraemter 1, |%s|\n", myPtr);
+	printf("Band-4 paraemter 1, |%s|\n", myPtr);
 	
 	int myInt = cfgFile.getInt_cfgfileParameter((char *) "band-1", 1) ;
 	printf("Band-1 paraemter 1, |%d|\n", myInt);
 	
 	float myFloat = cfgFile.getFloat_cfgfileParameter((char *) "band-1", 1) ;
-	printf("Band-1 paraemter 1, |%f|\n", myFloat);
+	printf("Band-2 paraemter 1, |%f|\n", myFloat);
 	
 	cfgFile.reset_cfgfileHandlerClass();
 	
