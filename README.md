@@ -13,7 +13,7 @@ open a file and create a file structure
        
 </h3><ul><li>
             
-                       int cfgfileOpen(char *fileName);
+int cfgfileOpen(char *fileName);
             
 </li></ul><h3> 
  
@@ -22,23 +22,23 @@ return a pointer to a memory allocated file structure representing the configura
        
 </h3><ul><li> 
   
-                      char** 	get_cfgfileStructure(void);
+char** 	get_cfgfileStructure(void);
 </li></ul>
 <h3>  
  return a file structure back to free memory to prevent memory leaks
 </h3><ul><li>
   
-                      int 	free_cfgfileStructure(char ***, int);
+int 	free_cfgfileStructure(char ***, int);
   
 </li></ul><h3>  
  Three data calls to retrive configuration parameters
 </h3><ul><li>
   
-                      getInt_cfgfileParaemter(char *paramterKey, int parameter number, int *intParam)
+getInt_cfgfileParaemter(char *paramterKey, int parameter number, int *intParam)
 </li><li>
-                      getFloat_cfgfileParaemter(char *paramterKey, int parameter number, float *floatParam)
+getFloat_cfgfileParaemter(char *paramterKey, int parameter number, float *floatParam)
 </li><li>
-                      getString_cfgfileParaemter(char *paramterKey, int parameter number, char **strParam)
+getString_cfgfileParaemter(char *paramterKey, int parameter number, char **strParam)
 </li></ul>  
 
 </div>
