@@ -15,10 +15,16 @@
 - `int getInt_cfgfileParaemter(char *paramterKey, int parameter number, int *intParam)`
 - `int getFloat_cfgfileParaemter(char *paramterKey, int parameter number, float *floatParam)`
 - `int getString_cfgfileParaemter(char *paramterKey, int parameter number, char **strParam)`
-- `   Error return -1 - no structure open`
-- `                -2 - parameter requested exceeds max allowed 15`
-- `                -3 - parameter key string not found`
-- `                -4 - general fault`
+- ``
+- `   return sring, if string is quoted, string is returned verbatum with all whitespace,  `
+- `      if string is not quoted string is returned packed with all whitespace removed`
+- ``
+- `   The following errors apply to all three of these routines`
+- `      Error return -1 - no structure open`
+- `                   -2 - parameter requested exceeds max allowed 15`
+- `                   -3 - parameter key string not found`
+- `                   -4 - general fault`
+- `                   -5 - paraemeter string exceeds 50 characters`
  
 ### Sample Records from a typical configFile.cfg
 - `# this is a typical configuration file`
@@ -37,4 +43,5 @@
 - `band-2 ,   80`
 - `band-3 ,   40`
 - `      example of string parameter`
-- `band-4 ,   20meters`
+- `band-4 ,   "this is 20 meters 17mHz   "
+`
