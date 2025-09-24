@@ -15,10 +15,10 @@
 - `int getInt_cfgfileParaemter(char *paramterKey, int parameter number, int *intParam)`
 - `int getFloat_cfgfileParaemter(char *paramterKey, int parameter number, float *floatParam)`
 - `int getString_cfgfileParaemter(char *paramterKey, int parameter number, char **strParam)`
-- ``
+
 - `   return sring, if string is quoted, string is returned verbatum with all whitespace,  `
-- `      if string is not quoted string is returned packed with all whitespace removed`
-- ``
+- `      if string is not quoted, string is returned packed with all whitespace removed`
+
 - `   The following errors apply to all three of these routines`
 - `      Error return -1 - no structure open`
 - `                   -2 - parameter requested exceeds max allowed 15`
