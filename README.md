@@ -27,11 +27,11 @@
 - `                   -5 - paraemeter string exceeds 50 characters`
  
 ### Sample Records from a typical configFile.cfg
-- `# this is a typical configuration file`
-- `#    first item is the base apraemter name upto 50 cvharacters`
-- `#    comma or semicolon seperated fields of upto 50 characters`
-- `#    records beginning with "#" are ifgnored as comments`
-- `#    parameter names can start anywhere on record, parameters must follow the parameter name
+ `# this is a typical configuration file`
+ `#    first item is the base apraemter name upto 50 cvharacters`
+ `#    comma or semicolon seperated fields of upto 50 characters`
+ `#    records beginning with "#" are ifgnored as comments`
+ `#    parameter names can start anywhere on record, parameters must follow the parameter name
 - `#`
 - `#    parameters may be either string(upto 50 chars), integer, or float'
 - '#`
