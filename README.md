@@ -43,5 +43,5 @@
 - `band-2 ,   80`
 - `band-3 ,   40`
 - `      example of string parameter`
-- `band-4 ,   "this is 20 meters 17mHz   "
+- `band-4 ,   "this is 20 meters 17mHz   "`
 `
