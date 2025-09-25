@@ -9,8 +9,10 @@
  
 int main(void) {
 
-	int i, nRecs;
+	int i, nRecs, retStat, myInt;
 	char **fStruct;
+	char *myPtr;
+	float myFloat;
 
 	cfgfileHandler cfgFile;
 	
@@ -26,14 +28,14 @@ int main(void) {
 	
 	cfgFile.free_cfgfileStructure(&fStruct, nRecs);
 	
-	char *myPtr = cfgFile.getString_cfgfileParameter((char *) "band-4", 1) ;
-	printf("Band-4 paraemter 1, |%s|\n", myPtr);
+	retStat = cfgFile.getString_cfgfileParameter((char *) "band-4", 1, &myPtr) ;
+	printf("Band-4 paraemter 1 as string, |%s|\n", myPtr);
 	
-	int myInt = cfgFile.getInt_cfgfileParameter((char *) "band-1", 1) ;
-	printf("Band-1 paraemter 1, |%d|\n", myInt);
+	retStat = cfgFile.getInt_cfgfileParameter((char *) "band-2", 1, &myInt) ;
+	printf("Band-2 paraemter 1, as INT, |%d|\n", myInt);
 	
-	float myFloat = cfgFile.getFloat_cfgfileParameter((char *) "band-2", 1) ;
-	printf("Band-2 paraemter 1, |%f|\n", myFloat);
+	retStat = cfgFile.getFloat_cfgfileParameter((char *) "band-1", 1, &myFloat) ;
+	printf("Band-1 paraemter 1 as float, |%f|\n", myFloat);
 	
 	cfgFile.reset_cfgfileHandlerClass();
 	
