@@ -36,7 +36,7 @@ int main(void) {
     printf("Band-2 parameter 1, as INT, |%d|\n", myInt);
 	
     retStat += cfgFile.getDouble_cfgfileParameter((char *) "band-1", 1, &myDouble) ;
-    printf("Band-1 parameter 1 as float, |%f|\n", myDouble);
+    printf("Band-1 parameter 1 as double, |%f|\n", myDouble);
 
     if(retStat) {printf("Errors returned: %d\n", retStat);}
 	
