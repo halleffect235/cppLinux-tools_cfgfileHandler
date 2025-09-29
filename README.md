@@ -13,7 +13,7 @@
 
 ### Three data calls to retrieve configuration parameters
 - `int getInt_cfgfileParaemter(char *paramterKey, int parameter number, int *intParam)`
-- `int getFloat_cfgfileParaemter(char *paramterKey, int parameter number, float *floatParam)`
+- `int getDouble_cfgfileParaemter(char *paramterKey, int parameter number, double *doublParam)`
 - `int getString_cfgfileParaemter(char *paramterKey, int parameter number, char **strParam)`
 
 - `   return sring, if string is quoted, string is returned verbatum with all whitespace,  `
@@ -37,7 +37,7 @@
 - '#`
 - `#    commented lines are ignored in the internal cfgfile structure to conserve memory`
 - `# band-1  , 167`
-- `#     example of float parameter`
+- `#     example of double parameter`
 - ` band-1 ; 160.50`
 - `#     example of integer parameter`
 - `band-2 ,   80`
