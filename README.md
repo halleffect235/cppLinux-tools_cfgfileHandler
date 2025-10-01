@@ -12,9 +12,9 @@
 - `int free_cfgfileStructure(char ***, int);`
 
 ### Three data calls to retrieve configuration parameters
-- `int getInt_cfgfileParaemter(char *paramterKey, int parameter number, int *intParam)`
-- `int getDouble_cfgfileParaemter(char *paramterKey, int parameter number, double *doublParam)`
-- `int getString_cfgfileParaemter(char *paramterKey, int parameter number, char **strParam)`
+- `int getInt_cfgfileParaemter(char *paramterKey, int parameter number, int *intParam)                   return converted int from parameter field`
+- `int getDouble_cfgfileParaemter(char *paramterKey, int parameter number, double *doublParam)           return converted double from parameter field`
+- `int getString_cfgfileParaemter(char *paramterKey, int parameter number, char **strParam)              return entire quoted string as an allocated pointer from parameter field or a compressed string`
 
 - `   return sring, if string is quoted, string is returned verbatum with all whitespace,  `
 - `      if string is not quoted, string is returned packed with all whitespace removed`
@@ -24,7 +24,7 @@
 - `                   -2 - parameter requested exceeds max allowed 15`
 - `                   -3 - parameter key string not found`
 - `                   -4 - general fault`
-- `                   -5 - paraemeter string exceeds 50 characters`
+- `                   -5 - parameter string exceeds 50 characters`
  
 ### Sample Records from a typical configFile.cfg
 - `# this is a typical configuration file`
