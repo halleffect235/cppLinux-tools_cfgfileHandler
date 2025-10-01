@@ -13,11 +13,11 @@
 
 ### Three data calls to retrieve configuration parameters
 - `int getInt_cfgfileParaemter(char *paramterKey, int parameter number, int *intParam)
-- return converted int from parameter field`
+      return converted int from parameter field`
 - `int getDouble_cfgfileParaemter(char *paramterKey, int parameter number, double *doublParam)
-- return converted double from parameter field`
+     return converted double from parameter field`
 - `int getString_cfgfileParaemter(char *paramterKey, int parameter number, char **strParam)
-- return entire quoted string as an allocated pointer from parameter field or a compressed string`
+     return entire quoted string as an allocated pointer from parameter field or a compressed string`
 
 - `   return sring, if string is quoted, string is returned verbatum with all whitespace,  `
 - `      if string is not quoted, string is returned packed with all whitespace removed`
