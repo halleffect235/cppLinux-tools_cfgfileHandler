@@ -16,8 +16,8 @@
       `return converted int from parameter field`
 - `int getDouble_cfgfileParaemter(char *paramterKey, int parameter number, double *doublParam)` \
      `return converted double from parameter field`
-- `int getString_cfgfileParaemter(char *paramterKey, int parameter number, char **strParam)'
-     `return entire quoted string as an allocated pointer from parameter field or a compressed string` \
+- `int getString_cfgfileParaemter(char *paramterKey, int parameter number, char **strParam)' \
+     `return entire quoted string as an allocated pointer from parameter field or without quotes a compressed string free of whitespace` 
 
 - `   return sring, if string is quoted, string is returned verbatum with all whitespace,  `
 - `      if string is not quoted, string is returned packed with all whitespace removed`
